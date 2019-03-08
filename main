@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int xcord, ycord;
+  cin >> xcord >> ycord;
+  if (xcord > 0 && ycord > 0)
+  {
+    cout << "1";
+  }
+  else if (xcord < 0 && ycord > 0)
+  {
+    cout << "2";
+  }
+  else if (xcord < 0 && ycord < 0)
+  {
+    cout << "3";
+  }
+  else if (xcord > 0 && ycord < 0)
+  {
+    cout << "4";
+  }
+}
